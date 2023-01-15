@@ -1,0 +1,88 @@
+/* Font Style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Work+Sans:wght@500;600&display=swap');
+
+/* Common Style */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.main-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    padding: 20px;
+}
+
+/* Header Style */
+.container {
+    padding: 30px 155px;
+    background-color: rgba(255, 144, 14, 0.1);
+
+}
+
+/* Nav Style */
+.nav-architects {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 87px;
+}
+
+nav .nav-title {
+    font-weight: 700;
+    font-size: 35px;
+    flex-shrink: 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 16px;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #3A3A3A;
+}
+
+/* Group of Architects  Style */
+
+.arc-group {
+    padding: 60px 80px;
+    text-align: center;
+}
+
+.arc-title {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.arc-description {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.arc-banner {
+    width: 100%;
+}
